@@ -1,7 +1,7 @@
 package yukidev.com.wingmandatabasetest;
 
 /**
- * Created by James on 5/29/2015.
+ * Created by James on  5/29/2015.
  */
 public class Airman {
 
