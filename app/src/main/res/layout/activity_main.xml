@@ -68,7 +68,7 @@
         android:layout_height="wrap_content"
         android:text="GO!"
         android:id="@+id/goButton"
-        android:layout_below="@+id/rankText"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"/>
 
     <Button
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:text="Set First"
         android:id="@+id/setButton"
-        android:layout_below="@+id/goButton"
+        android:layout_below="@+id/rankEditText"
         android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

@@ -5,29 +5,29 @@ package yukidev.com.wingmandatabasetest;
  */
 public class Airman {
 
+    private int id;
     private String mName;
     private int mAge;
     private String mRank;
 
-    public Airman (String name, int age, String rank) {
+    public Airman (int id, String name, int age, String rank) {
 
-        name = "";
-        age = 0;
-        rank = "";
+     }
+    public int getId() {return id;    }
 
-    }
+    public void setId(int id) {this.id = id;}
 
     public String getName() {return mName;}
 
-    public void setName(String name) {mName = name;}
+    public void setName(String name) {this.mName = name;}
 
     public int getAge() {return mAge;}
 
-    public void setAge(int age) {mAge = age;}
+    public void setAge(int age) {this.mAge = age;}
 
     public String getRank() {return mRank;}
 
-    public void setRank(String rank) {mRank = rank;}
+    public void setRank(String rank) {this.mRank = rank;}
 
 
 }
