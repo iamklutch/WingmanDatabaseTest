@@ -1,5 +1,6 @@
 package yukidev.com.wingmandatabasetest;
 
+
 /**
  * Created by James on  5/29/2015.
  */
@@ -28,6 +29,5 @@ public class Airman {
     public String getRank() {return mRank;}
 
     public void setRank(String rank) {this.mRank = rank;}
-
 
 }

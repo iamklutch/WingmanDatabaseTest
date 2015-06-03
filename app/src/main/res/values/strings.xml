@@ -7,4 +7,6 @@
     <string name="airman_fragment_title">Airmen</string>
     <string name="action_about">About</string>
     <string name="toast_about">All about toast</string>
+    <string name="encryption_password">UserName</string>
+    <string name="decryption_password">UserName</string>
 </resources>

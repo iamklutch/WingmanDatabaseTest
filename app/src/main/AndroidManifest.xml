@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.GetAirmenActivity"
+            android:name=".activities.ViewAirmenActivity"
             android:label="@string/title_activity_get_airmen"
             android:parentActivityName=".activities.MainActivity">
         </activity>
